@@ -1,0 +1,34 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sun Apr 12 21:27:27 2026"
+  rime_version: 1.13.1
+patch:
+  #app_options:
+  #  Listary.exe: {ascii_mode: true}
+  #  # emacs.exe:
+  #  #   ascii_mode:
+  #  #     true
+  #  #   vim_mode:
+  #  #     true
+  #  saplogon.exe:
+  #    ascii_mode:
+  #      true
+  #  chrome.exe:
+  #    ascii_mode:
+  #      true
+  #  WindowsTerminal.exe:
+  #    ascii_mode:
+  #      true
+  "preset_color_schemes/+":
+    __include: "color_schemes:/color_schemes"
+  "style/+":
+    color_scheme: catppuccin_frappe
+    color_scheme_dark: catppuccin_mocha
+    font_face: "LXGW WenKai Mono GB,文津宋体 第0平面,文津宋体 第2平面,文津宋体 第3平面,Twitter Color Emoji,Segoe UI Emoji"
+    font_point: 20
+    horizontal: false
+    inline_preedit: true
+    label_format: "%s."
+    "layout/+": {__include: "color_schemes:/style/layout"}

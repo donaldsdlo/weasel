@@ -1,0 +1,129 @@
+patch:
+  show_notifications_when: appropriate  # 状态通知，适当，也可设为全开（always）全关（never）
+  # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
+  style/text_orientation: horizontal  # horizontal | vertical
+  style/color_scheme: dracula
+  style/inline_preedit: true
+  # 通知栏显示方式以及 ascii_mode 应用，与外观无关
+  show_notifications_via_notification_center: true
+  preset_color_schemes/+:
+    __include: color_schemes:/color_schemes
+
+  style/+:
+    layout/+:
+      __include: color_schemes:/style/layout
+    inline_preedit: true                           # 非内嵌编码行
+    # 预设的配色方案及代码（指定为 style/color_scheme 系统默认色系 - native）
+    color_scheme: catppuccin_latte                 # macos明亮主题
+    color_scheme_dark: catppuccin_macchiato        # macos黑暗主题
+    #Squirrel 1.0 Breaking Changes: style/horizontal 即将废弃，1.0以上版本请使用 style/candidate_list_layout 和 style/text_orientation
+    horizontal: true                               # 候选窗是否横向显示：true横排，false竖排（Squirrel 1.0起使用新的UI配置）
+    #candidate_list_layout: linear                  # 候选框样式，默认stacked，水平线型(linear)/垂直堆叠（stacked）
+    #text_orientation: horizontal                   # 候选框文字方向，默认horizontal，横排自左至右(horizontal)/竖排自右至左(vertical)
+    candidate_format: "%c %@ "                     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+    corner_radius: 6                               # 窗口圆角
+    hilited_corner_radius: 5                       # 高亮圆角
+    line_spacing: 10                               # 行间距(适用于竖排)
+    border_height: 1                               # 窗口上下高度
+    border_width: 1                                # 窗口左右宽度
+    font_face: "PingFangSC"                        # 候选词字体
+    font_point: 16                                 # 候选字大小
+    label_font_point: 13                           # 候选编号大小
+
+  # 以下软件默认英文模式
+  app_options:
+    com.github.GitHubClient:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.apple.finder:
+      ascii_mode: true
+    com.sublimetext.4:
+      ascii_mode: true
+    com.sublimetext.3:
+      ascii_mode: true
+    com.apple.calculator:
+      ascii_mode: true
+    com.apple.launchpad.launcher:
+      ascii_mode: true
+    com.apple.systempreferences:
+      ascii_mode: true
+    com.apple.ActivityMonitor:
+      ascii_mode: true
+    com.apple.keychainaccess:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.jetbrains.intellij:
+      ascii_mode: true
+    com.jetbrains.datagrip:
+      ascii_mode: true
+    com.jetbrains.pycharm:
+      ascii_mode: true
+    io.nteract.nteract:
+      ascii_mode: true
+    com.sequelpro.SequelPro:
+      ascii_mode: true
+    io.termix.client:
+      ascii_mode: true
+    com.agilebits.onepassword7:
+      ascii_mode: true
+    com.agilebits.onepassword7-helper:
+      ascii_mode: true
+    com.kapeli.dashdoc:
+      ascii_mode: true
+    com.svend.uPic:
+      ascii_mode: true
+    com.eusoft.eudic:
+      ascii_mode: true    
+    # gett app bundle id: osascript -e 'id of app "MacVim"'
+    org.vim.MacVim:
+      no_inline: true
+      vim_mode: true
+    uk.foon.Neovim:
+      no_inline: true
+      vim_mode: true
+    com.qvacua.VimR:
+      no_inline: true
+      vim_mode: true
+    com.ident.goneovim:
+      no_inline: true
+      vim_mode: true
+    com.neovide.neovide:
+      no_inline: true
+      vim_mode: true
+    com.googlecode.iterm2:
+      no_inline: true
+      vim_mode: false
+    com.apple.Terminal:
+      no_inline: true
+      vim_mode: false
+    #com.apple.iWork.Numbers:
+      #no_inline: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.jetbrains.intellij:
+      vim_mode: true
+    com.jetbrains.datagrip:
+      vim_mode: true
+    com.jetbrains.WebStorm:
+      vim_mode: true
+    # Obsidian
+    md.obsidian:
+      vim_mode: true
+    net.kovidgoyal.kitty:
+      vim_mode: true
+    # AntDraw in Edge
+    com.microsoft.edgemac.app.jndbnbljngolcchhjbajncidekccnlck:
+      no_inline: true
+    # AntDraw in Chrome
+    com.google.Chrome.app.jndbnbljngolcchhjbajncidekccnlck:
+      no_inline: true

@@ -1,0 +1,75 @@
+# Rime dictionary: zrm2000
+# encoding: utf-8
+#
+# Changelog
+#    描述: 自然码输入系统2000, 2009新春版
+#    码表: 《自然码2009新春版》V7.27, 自然码编码, 含自然码单字编码查询 & 自然切形查询
+#    网址: http://www.zrm.com.cn/
+#    UsedCodes=abcdefghijklmnopqrstuvwxyz,.
+#    自然码编码规则: 码1=声母, 码2=韵母, 码3=主形码, 码4=次形码
+#    2字词:ce2=p11+p21+,                 # 字1码1+字2码1+,          # 2字高频词简码
+#    2字词:ce2=p11+p12+p21+p22           # 字1码1+字1码2+字2码1+字2码2
+#    2字词:ce2=p11+p12+p21+p22+p13       # 字1码1+字1码2+字2码1+字2码2+字1码3
+#    2字词:ce2=p11+p12+p21+p22+p23       # 字1码1+字1码2+字2码1+字2码2+字2码3
+#    3字词:ce3=p11+p21+p31+,             # 字1码1+字2码1+字3码1+,   # 3字词简码
+#    3字词:ce3=p11+p12+p21+p22+p31+p32   # 字1码1+字1码2+字2码1+字2码2+字3码1+字3码2
+#    4字词:ca4=p11+p21+p31+n11           # 字1码1+字2码1+字3码1+末字1码1
+#    自然码单字编码查询:根据发音查询单字的各种编码(音码+形码)
+#        构词规则: 码1=声母, 码2=韵母, 码3=逗号(,), 码4=逗号(,), 码5=主形码, 码6=次形码
+#        单字编码查询返回格式:自然码单字[自然码单字4码编码]
+#        如 hu,,=所有发音为hu的单字的各种编码, hu,,og=胡[huog]
+#    自然切形查询：根据切形码查询单字的各种编码(音码+形码),切形码与自然码的形码类似
+#        构词规则: 码1=主形码1声母, 码2=主形码1韵母, 码3=句点(.), 码4=句点(.), 码5=主形码2声母, 码6=主形码2韵母
+#        切形查询返回格式:自然码单字[自然码单字4码编码]
+#        如 yt..=所有月字旁的单字的各种编码, yt..gu=胡[huog]/胡[huyg]
+
+---
+name: zrm2000.all
+version: "2009新春版"
+sort: original
+use_preset_vocabulary: false
+import_tables:
+  - zrm2000
+  - zrm2000.dicts/zrm2000.thuocl.animal
+  - zrm2000.dicts/zrm2000.thuocl.caijing
+  - zrm2000.dicts/zrm2000.thuocl.car
+  - zrm2000.dicts/zrm2000.thuocl.chengyu
+  - zrm2000.dicts/zrm2000.thuocl.diming
+  - zrm2000.dicts/zrm2000.thuocl.food
+  - zrm2000.dicts/zrm2000.thuocl.it
+  - zrm2000.dicts/zrm2000.thuocl.law
+  - zrm2000.dicts/zrm2000.thuocl.lishimingren
+  - zrm2000.dicts/zrm2000.thuocl.medical
+  - zrm2000.dicts/zrm2000.thuocl.poem
+  - zrm2000.dicts/zrm2000.zhwiki
+  - zrm2000.dicts/zrm2000.tencent
+  - zrm2000.dicts/zrm2000.super
+  - zrm2000.dicts/zrm2000.easy_en
+  - zrm2000.dicts/zrm2000.user
+  - zrm2000.dicts/zrm2000.others
+  - zrm2000.dicts/zrm2000.ext
+  - zrm2000.dicts/zrm2000.base
+  - zrm2000.dicts/zrm2000.41448
+  - zrm2000.dicts/zrm2000.8105
+  - zrm2000.dicts/zrm2000.animal
+  - zrm2000.dicts/zrm2000.chess
+  - zrm2000.dicts/zrm2000.chess2
+  - zrm2000.dicts/zrm2000.composite
+  - zrm2000.dicts/zrm2000.computer
+  - zrm2000.dicts/zrm2000.exthot
+  - zrm2000.dicts/zrm2000.food
+  - zrm2000.dicts/zrm2000.game
+  - zrm2000.dicts/zrm2000.geography
+  - zrm2000.dicts/zrm2000.history
+  - zrm2000.dicts/zrm2000.idiom
+  - zrm2000.dicts/zrm2000.industry_product
+  - zrm2000.dicts/zrm2000.inputmethod
+  - zrm2000.dicts/zrm2000.literature
+  - zrm2000.dicts/zrm2000.media
+  - zrm2000.dicts/zrm2000.medication
+  - zrm2000.dicts/zrm2000.music
+  - zrm2000.dicts/zrm2000.name
+  - zrm2000.dicts/zrm2000.name2
+  - zrm2000.dicts/zrm2000.place
+  - zrm2000.dicts/zrm2000.shulihua
+  - zrm2000.dicts/zrm2000.sport

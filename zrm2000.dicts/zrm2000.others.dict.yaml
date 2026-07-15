@@ -1,0 +1,919 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+#
+#
+---
+name: zrm2000.others
+version: "2026-03-08"
+sort: by_weight
+...
+##### 容错词
+# 一些口语读音
+空落落	kslolo
+空落落	kslklk
+空落落的	kslolode
+空落落的	kslklkde
+# 「阿房宫」的注音争议比较大
+阿房宫	eephgs
+阿房宫	aaphgs
+阿房宫	eefhgs
+阿房宫	aafhgs
+阿房宫赋	eephgsfu
+阿房宫赋	aaphgsfu
+阿房宫赋	eefhgsfu
+阿房宫赋	aafhgsfu
+# 「伯伯」方言
+伯伯	bobo
+伯伯	blbl
+# 「还」的旧读
+欲就还推	yujqhltv
+欲就还推	yujqhrtv
+欲拒还迎	yujuhlyy
+欲拒还迎	yujuhryy
+欲说还休	yuuohlxq
+欲说还休	yuuohrxq
+欲说还休梦已阑	yuuohlxqmgyilj
+欲说还休梦已阑	yuuohrxqmgyilj
+欲言还止	yuyjhlvi
+欲言还止	yuyjhrvi
+欲迎还拒	yuyyhlju
+欲迎还拒	yuyyhrju
+欲语还休	yuyuhlxq
+欲语还休	yuyuhrxq
+欲语还羞	yuyuhlxq
+欲语还羞	yuyuhrxq
+欲走还留	yuzbhllq
+欲走还留	yuzbhrlq
+# 「斜」的协音读法
+远上寒山石径斜	yruhhjujuijyxx
+远上寒山石径斜	yruhhjujuijyxw
+# 「骑」目前统读 qi
+坐骑	zoqi
+坐骑	zoji
+铁骑	txqi
+铁骑	txji
+铁骑突出刀枪鸣	txqituiudkqdmy
+铁骑突出刀枪鸣	txjituiudkqdmy
+一骑绝尘	yiqijtif
+一骑绝尘	yijijtif
+一骑当千	yiqidhqm
+一骑当千	yijidhqm
+一骑红尘妃子笑	yiqihsiffzzixc
+一骑红尘妃子笑	yijihsiffzzixc
+走单骑	zbdjqi
+走单骑	zbdjji
+千里走单骑	qmlizbdjqi
+千里走单骑	qmlizbdjji
+# 「齐」表示合金时读作jì，然而今多读qí
+汞齐	gsji
+汞齐	gsqi
+汞齐电极	gsjidmji
+汞齐电极	gsqidmji
+# 「街」的粤语和东北话读音及常见的两种写法
+仆街	pujx
+仆街	pugl
+扑街	pujx
+扑街	pugl
+扑街仔	pujxzl
+扑街仔	puglzl
+仆街仔	pujxzl
+仆街仔	puglzl
+街溜子	jxlqzi
+街溜子	gllqzi
+# 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
+郭明錤	gomyji
+郭明錤	gomyqi
+# 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
+李昌镐	liihhk
+曹世镐	ckuihk
+张镐哲	vhgkve
+姜成镐	jdighk
+姜镐童	jdhkts
+张镐濂	vhhklm
+李敏镐	limnhk
+李陈镐	liifhk
+赵亮镐	vkldhk
+郑俊镐	vgjphk
+
+
+##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
+### 错音
+馄饨	hptp
+馄饨	hpdp
+主角	vujt
+主角	vujc
+角色	jtse
+角色	jcse
+比萨饼	bisaby
+比萨饼	pisaby
+吃比萨	iibisa
+吃比萨	iipisa
+说服	uofu
+说服	uvfu
+道行	dkhg
+道行	dkhh
+模样	muyh
+模样	moyh
+有模有样	ybmuybyh
+有模有样	ybmoybyh
+一模一样	yimuyiyh
+一模一样	yimoyiyh
+装模作样	vdmuzoyh
+装模作样	vdmozoyh
+人模狗样	rfmugbyh
+人模狗样	rfmogbyh
+模板	mubj
+模板	mobj
+阿弥陀佛	eemitofo
+阿弥陀佛	aamitofo
+南无阿弥陀佛	namoeemitofo
+南无阿弥陀佛	namoaamitofo
+南无阿弥陀佛	njwueemitofo
+南无阿弥陀佛	njwuaamitofo
+刹帝利	iadili
+刹帝利	uadili
+给予	jiyu
+给予	gzyu
+槟榔	bylh
+槟榔	bnlh
+张柏芝	vhbovi
+张柏芝	vhblvi
+藤蔓	tgwj
+藤蔓	tgmj
+弄堂	lsth
+弄堂	nsth
+心宽体胖	xnkrtipj
+心宽体胖	xnkrtiph
+埋怨	mjyr
+埋怨	mlyr
+虚与委蛇	xuyuwzyi
+虚与委蛇	xuyuwzue
+木讷	mune
+木讷	muna
+龟裂	jplx
+龟裂	gvlx
+独乐乐	duytle
+独乐乐	dulele
+众乐乐	vsytle
+众乐乐	vslele
+荨麻	qmma
+荨麻	xpma
+荨麻疹	xpmavf
+荨麻疹	qmmavf
+模具	muju
+模具	moju
+草薙	ckti
+草薙	ckvi
+草薙京	cktijy
+草薙京	ckvijy
+草薙剑	cktijm
+草薙剑	ckvijm
+贾平凹	jwpywa
+贾平凹	jwpyao
+雪佛兰	xtfulj
+雪佛兰	xtfolj
+强劲	qdjy
+强劲	qdjn
+胴体	dsti
+胴体	tsti
+力能扛鼎	lingghdy
+力能扛鼎	lingkhdy
+鸭绿江	yalujd
+鸭绿江	yalvjd
+大腹便便	dafupmpm
+大腹便便	dafubmbm
+卡脖子	qwbozi
+卡脖子	kabozi
+吱声	ziug
+吱声	viug
+掺和	ijho
+掺和	ijhe
+掺和	cjho
+掺和	cjhe
+称职	ifvi
+称职	igvi
+螺蛳粉	losiff
+螺蛳粉	louiff
+调换	dchr
+调换	tchr
+太行山	tlhhuj
+太行山	tlxyuj
+歇斯底里	xxsidili
+歇斯底里	jxsidili
+发酵	fajc
+发酵	faxc
+酵母菌	jcmujp
+酵母菌	xcmujp
+酵母	jcmu
+酵母	xcmu
+殷红	yjhs
+殷红	ynhs
+暖和	nrho
+暖和	nrhe
+模棱两可	molgldke
+模棱两可	molyldke
+鄱阳湖	poyhhu
+鄱阳湖	pjyhhu
+鄱阳湖	boyhhu
+脖颈	bogg
+脖颈	bojy
+脖颈儿	bogger
+脖颈儿	bojyer
+牛皮癣	nqpixr
+牛皮癣	nqpixm
+花斑癣	hwbjxr
+花斑癣	hwbjxm
+体癣	tixr
+体癣	tixm
+股癣	guxr
+股癣	guxm
+脚癣	jcxr
+脚癣	jcxm
+足癣	zuxr
+足癣	zuxm
+结扎	jxza
+结扎	jxva
+海参崴	hlufwl
+海参崴	hlufwz
+厚朴	hbpo
+厚朴	hbpu
+大宛马	dayrma
+大宛马	dawjma
+龇牙	ziya
+龇牙	ciya
+龇着牙	ziveya
+龇着牙	civeya
+龇牙咧嘴	ziyalxzv
+龇牙咧嘴	ciyalxzv
+头皮屑	tbpixx
+头皮屑	tbpixt
+六安	luan
+六安	lqan
+六安县	luanxm
+六安县	lqanxm
+六安市	luanui
+六安市	lqanui
+六合区	luhequ
+六合区	lqhequ
+安徽六安	anhvluan
+安徽六安	anhvlqan
+安徽六安市	anhvluanui
+安徽六安市	anhvlqanui
+安徽省六安市	anhvugluanui
+安徽省六安市	anhvuglqanui
+南京六合	njjyluhe
+南京六合	njjylqhe
+南京六合区	njjyluhequ
+南京六合区	njjylqhequ
+南京市六合区	njjyuiluhequ
+南京市六合区	njjyuilqhequ
+偌大	roda
+偌大	noda
+饮鸩止渴	ynvfvike
+饮鸩止渴	ynjqvike
+饮鸩解渴	ynvfjxke
+饮鸩解渴	ynjqjxke
+宫商角徵羽	gsuhjtviyu
+宫商角徵羽	gsuhjcviyu
+氙气灯	xmqidg
+氙气灯	ujqidg
+氙气大灯	xmqidadg
+氙气大灯	ujqidadg
+氙气手电筒	xmqiubdmts
+氙气手电筒	ujqiubdmts
+应该	yygl
+应该	yngl
+粘贴	vjtx
+粘贴	nmtx
+粘一粘	vjyivj
+粘一粘	nmyinm
+吐蕃	tubo
+吐蕃	tufj
+吐谷浑	tuyuhp
+吐谷浑	tuguhp
+高句丽	gkgbli
+高句丽	gkjuli
+角斗士	jtdbui
+角斗士	jcdbui
+缩砂密	suuami
+缩砂密	souami
+迫击炮	pljipk
+迫击炮	pojipk
+封禅	fguj
+封禅	fgij
+芫荽	yjsv
+芫荽	yrsv
+榅桲	wfpo
+榅桲	wfbo
+荸荠	biqi
+荸荠	biji
+柔荑	rbti
+柔荑	rbyi
+柔荑花序	rbtihwxu
+柔荑花序	rbyihwxu
+手如柔荑	ubrurbti
+手如柔荑	ubrurbyi
+温庭筠	wftyyp
+温庭筠	wftyjp
+朱祐樘	vuybig
+朱祐樘	vuybth
+关卡	grqw
+关卡	grka
+三昧真火	sjmzvfho
+三昧真火	sjwzvfho
+青𬞟之末	qypnvimo
+青𬞟之末	qypyvimo
+起于青𬞟之末	qiyuqypnvimo
+起于青𬞟之末	qiyuqypyvimo
+风起于青𬞟之末	fgqiyuqypnvimo
+风起于青𬞟之末	fgqiyuqypyvimo
+优惠券	ybhvqr
+优惠券	ybhvjr
+拱券	gsxr
+拱券	gsqr
+哺乳	buru
+哺乳	puru
+脑卒中	nkcuvs
+脑卒中	nkzuvs
+阈值	yuvi
+阈值	favi
+潟湖	xihu
+潟湖	xxhu
+果脯	gofu
+果脯	gopu
+肉脯	rbfu
+肉脯	rbpu
+饸饹	hele
+饸饹	holo
+脯氨酸	fuansr
+脯氨酸	puansr
+酪氨酸	lkansr
+酪氨酸	loansr
+没食子	mouizi
+没食子	mzuizi
+裳凤蝶	ihfgdx
+裳凤蝶	uhfgdx
+白𬶨豚	bljitp
+白𬶨豚	blqitp
+桡骨	rkgu
+桡骨	nkgu
+百折不挠	blvebunk
+百折不挠	blveburk
+椎心泣血	ivxnqixx
+椎心泣血	vvxnqixx
+椎心泣血	ivxnqixt
+椎心泣血	vvxnqixt
+挟持	xxii
+挟持	xwii
+亳州	bovb
+亳州	hkvb
+牛丼	nqdj
+牛丼	nqjy
+牛丼饭	nqdjfj
+牛丼饭	nqjyfj
+安瓿	anbu
+安瓿	anpb
+安瓿瓶	anbupy
+安瓿瓶	anpbpy
+解剖	jxpb
+解剖	jxpk
+剖分	pbff
+剖分	pkff
+剖腹产	pbfuij
+剖腹产	pkfuij
+剖宫产	pbgsij
+剖宫产	pkgsij
+金匮	jngv
+金匮	jnkv
+清平乐	qypyyt
+清平乐	qypyle
+踏莎行	tasoxy
+踏莎行	tauaxy
+莎草	sock
+莎草	uack
+杉木	uamu
+杉木	ujmu
+苣荬菜	qumlcl
+苣荬菜	jumlcl
+李悝	likv
+李悝	lili
+跬步	kvbu
+跬步	gvbu
+道在屎溺	dkzluinc
+道在屎溺	dkzluini
+暴殄天物	bktmtmwu
+暴殄天物	bklmtmwu
+以己度人	yijidorf
+以己度人	yijidurf
+一语成谶	yiyuigif
+一语成谶	yiyuigvf
+甑糕	zggk
+甑糕	jygk
+着想	voxd
+着想	vkxd
+胳肢窝	gaviwo
+胳肢窝	geviwo
+潏河	jthe
+潏河	yuhe
+校正	jcvg
+校正	xcvg
+校对	jcdv
+校对	xcdv
+结束	jxuu
+结束	jxsu
+自怨自艾	ziyrziyi
+自怨自艾	ziyrziai
+呱呱坠地	guguvvdi
+呱呱坠地	gwgwvvdi
+拗口	aokb
+拗口	nqkb
+蚌埠	bgbu
+蚌埠	bhbu
+秘鲁	bilu
+秘鲁	milu
+炽热	iire
+炽热	vire
+裨益	biyi
+裨益	piyi
+刚愎自用	ghbiziys
+刚愎自用	ghfuziys
+戛然而止	jwrjervi
+戛然而止	garjervi
+一叶扁舟	yiyepmvb
+一叶扁舟	yiyebmvb
+博闻强识	bowfqdvi
+博闻强识	bowfqdui
+贲临	biln
+贲临	bfln
+倾轧	qyya
+倾轧	qyva
+妊娠	rfuf
+妊娠	rfif
+莘莘学子	ufufxtzi
+莘莘学子	xnxnxtzi
+拓本	tabf
+拓本	tobf
+唾手可得	toubkede
+唾手可得	ivubkede
+吸吮	xiup
+吸吮	xiyp
+心广体胖	xngdtipj
+心广体胖	xngdtiph
+星宿	xyxq
+星宿	xysu
+赝品	yjpn
+赝品	yypn
+一曝十寒	yipuuihj
+一曝十寒	yibkuihj
+粗犷	cugd
+粗犷	cukd
+巷道	hhdk
+巷道	xddk
+恫吓	dshe
+恫吓	tsxw
+诡谲	gvjt
+诡谲	gvju
+游说	ybuv
+游说	ybuo
+阴霾	ynml
+阴霾	ynli
+噱头	xttb
+噱头	jutb
+商贾	uhgu
+商贾	uhjw
+剽悍	pchj
+剽悍	bchj
+淙淙	cscs
+淙淙	zszs
+整饬	vgii
+整饬	vguh
+捯饬	dkii
+捯饬	dkuh
+谬论	mqlp
+谬论	mclp
+面面相觑	mmmmxdqu
+面面相觑	mmmmxdxu
+恪守	keub
+恪守	geub
+角逐	jtvu
+角逐	jcvu
+蛤蜊	geli
+蛤蜊	gali
+饿殍	eepc
+饿殍	eefu
+堤岸	dian
+堤岸	tian
+粗糙	cuck
+粗糙	cuzk
+肄业	yiye
+肄业	siye
+瞠目结舌	igmujxue
+瞠目结舌	thmujxue
+谄媚	ijmz
+谄媚	xmmz
+不啻	buii
+不啻	budi
+鞭挞	bmta
+鞭挞	bmda
+鞭笞	bmii
+鞭笞	bmtl
+附骨之疽	fuguviju
+附骨之疽	fuguviqu
+### 错字
+曾经	cgjy
+曾今	cgjn
+按捺	anna
+按耐	annl
+按捺不住	annabuvu
+按耐不住	annlbuvu
+别价	bxjx
+别介	bxjx
+甭价	bgjx
+甭介	bgjx
+血脉贲张	xtmlbfvh
+血脉偾张	xtmlffvh
+血脉喷张	xtmlpfvh
+契诃夫	qihefu
+契科夫	qikefu
+凑合	cbhe
+凑活	cbho
+巨惠	juhv
+钜惠	juhv
+摩羯座	mojxzo
+魔蝎座	moxxzo
+比萨	bisa
+披萨	pisa
+㹴犬	ggqr
+梗犬	ggqr
+莜麦菜	ybmlcl
+油麦菜	ybmlcl
+
+
+##### 叠字
+# 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
+# 二叠字
+两个火
+两个土
+两个一
+两个二
+两个山
+两个口
+两个田
+两个九
+两个人
+两个飞
+两个戈
+两个厶	ldgesi
+两个厶	ldgemb
+两个又
+两个香
+两个面
+两个兀
+两个女
+两个𡥦	ldgeni
+两个臣
+两个巾
+两个左
+两个母
+两个来
+两个凡
+两个夕
+两个彐	ldgeji
+两个𢎘	ldgehj
+两个魚	ldgeyu
+两个明
+两个朿	ldgeci
+两个乂
+两个曰
+两个尸
+两个户
+两个大
+两个八
+两个而
+两个羊
+两个吉
+两个马
+两个卅
+两个巛	ldgeir
+两个止
+两个比
+两个言
+两个申
+两个牛
+两个余
+两个束
+两个罒	ldgemu
+两个㐅	ldgewu
+两个金
+两个木
+两个水
+两个火
+两个風	ldgefg
+两个石
+两个口
+两个日
+两个月
+两个目
+两个白
+两个百
+两个耳
+两个山
+两个屮	ldgeie
+两个屮	ldgeck
+两个廿
+两个卄	ldgenm
+两个虫
+两个虎
+两个龍	ldgels
+两个馬	ldgema
+两个犬
+两个人
+两个入
+两个习
+两个卪	ldgejx
+两个㔾	ldgejx
+两个几
+两个乙
+两个大
+两个夫
+两个禾
+两个干
+两个井
+两个斤
+两个片
+两个牙
+两个炎
+两个弓
+两个永
+两个亦
+两个手
+两个毛
+两个王
+两个男
+两个女
+两个又
+两个支
+两个隻	ldgevi
+两个古
+两个吉
+两个舌
+两个言
+两个户
+两个启
+两个來	ldgell
+两个桼	ldgeqi
+两个旡	ldgeji
+两个夕
+两个歹
+两个匕
+两个幺
+两个玄
+两个心
+两个力
+两个欠
+两个子
+两个予
+两个享
+两个立
+两个音
+两个竟
+两个竞
+两个兄
+两个見	ldgejm
+两个貝	ldgebz
+两个辛
+两个瓜
+两个呆
+两个果
+两个鸟
+两个巢
+两个禺	ldgeyu
+两个巿	ldgefu
+两个句
+两个奇
+两个真
+两个尹
+两个昔
+两个易
+两个臣
+两个面
+两个先
+两个老
+两个示
+两个至
+两个生
+两个車	ldgeie
+两个車	ldgeju
+两个足
+两个區	ldgequ
+两个香
+两个隹	ldgevv
+两个牟
+两个豕
+两个𠂢	ldgepl
+两个畐	ldgefu
+两个㣇	ldgeyi
+两个邑
+两个堯	ldgeyk
+两个秉
+两个倉	ldgech
+两个東	ldgeds
+两个善
+两个僉	ldgeqm
+两个齒	ldgeii
+两个喜
+两个走
+两个止
+两个昌
+两个串
+两个米
+两个束
+两个隶
+两个不
+两个龙
+两个乞
+两个夋	ldgeqp
+两个天
+# 三叠字
+三个生
+三个秦
+三个若
+三个雲	sjgeyp
+三个人
+三个刀
+三个十
+三个力
+三个原
+三个厶	sjgesi
+三个厶	sjgemb
+三个又
+三个口
+三个七
+三个吉
+三个土
+三个士
+三个女
+三个子
+三个小
+三个心
+三个手
+三个日
+三个木
+三个止
+三个毛
+三个水
+三个泉
+三个火
+三个牛
+三个犬
+三个田
+三个白
+三个目
+三个直
+三个石
+三个羊
+三个耳
+三个舌
+三个屮	sjgeie
+三个屮	sjgeck
+三个虫
+三个言
+三个贝
+三个車	sjgeie
+三个金
+三个隹	sjgevv
+三个雷
+三个風	sjgefg
+三个飛	sjgefz
+三个香
+三个马
+三个魚	sjgeyu
+三个鹿
+三个龍	sjgels
+三个个
+三个丶	sjgevu
+三个丶	sjgedm
+三个了
+三个介
+三个企
+三个舍
+三个圥	sjgelu
+三个光
+三个兔
+三个全
+三个𠙽	sjgeky
+三个𠧪	sjgetc
+三个𠧪	sjgeyb
+三个㔾	sjgejx
+三个厡	sjgeyr
+三个可
+三个因
+三个夏
+三个大
+三个天
+三个太
+三个𦉼	sjgeku
+三个宝
+三个宜
+三个客
+三个寒
+三个少
+三个山
+三个市
+三个文
+三个斗
+三个朿	sjgeci
+三个束
+三个林
+三个果
+三个欠
+三个𣥚	sjgezb
+三个爪
+三个妥
+三个用
+三个甲
+三个百
+三个盖
+三个県	sjgexm
+三个空
+三个亇	sjgege
+三个竹
+三个罒	sjgemu
+三个羗	sjgeqd
+三个老
+三个月
+三个至
+三个興	sjgexy
+三个足
+三个㖖	sjgenx
+三个門	sjgemf
+三个面
+三个頁	sjgeye
+三个鳥	sjgenc
+三个男
+三个立
+三个九
+三个也
+三个加
+三个動	sjgeds
+三个千
+三个方
+三个朔
+三个玉
+三个申
+三个𡿨	sjgeqr
+三个去
+三个弓
+三个䖝	sjgeis
+三个丿	sjgepx
+三个户
+三个瓜
+三个鸟
+三个米
+# 四叠字
+四个乂	sigeyi
+四个人
+四个厶	sigesi
+四个厶	sigemb
+四个又
+四个匕
+四个工
+四个口
+四个天
+四个小
+四个屮	sigeie
+四个屮	sigeck
+四个火
+四个牛
+四个魚	sigeyu
+四个月
+四个日
+四个林
+四个水
+四个石
+四个田
+四个甲
+四个且
+四个囚
+四个困
+四个竹
+四个老
+四个朿	sigeci
+四个先
+四个金
+四个泉
+四个言
+四个門	sigemf
+四个果
+四个春
+四个車	sigeie
+四个風	sigefg
+四个雷
+四个雲	sigeyp
+四个興	sigexy
+四个龍	sigels
+四个土

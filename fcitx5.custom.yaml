@@ -1,0 +1,35 @@
+# Fcitx5 Rime 前端配置
+# encoding: utf-8
+#
+# 用于 Rime 在 Fcitx5 平台下的配置
+# 主题定义在 color_schemes.yaml 中
+
+customization:
+  distribution_code_name: fcitx5
+  distribution_version: 5.1.0
+  generator: "Rime"
+  rime_version: 1.13.1
+
+patch:
+  # 界面样式 - 浅色主题
+  "style/color_scheme": catppuccin_latte
+
+  # 界面样式 - 深色主题
+  "style/color_scheme_dark": catppuccin_mocha
+
+  # 字体
+  "style/font_face": "Noto Sans CJK SC, WenQuanYi Micro Hei, Sans"
+  "style/font_point": 13
+
+  # 布局
+  "style/horizontal": false
+  "style/inline_preedit": true
+  "style/corner_radius": 8
+  "style/spacing": 10
+  "style/line_spacing": 5
+
+  # 候选栏
+  "menu/page_size": 5
+
+  # 自动跟随系统主题 - 启用后根据系统主题自动切换浅色/深色
+  "style/auto_dark_mode": true

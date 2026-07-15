@@ -1,0 +1,19 @@
+# Rime dictionary
+# encoding: utf-8
+# 自媒体
+#
+---
+name: zrm2000.media
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+完读	wjdu
+完读率	wjdulv
+完播	wjbo
+完播率	wjbolv
+大神码字	daufmazi
+橙瓜	iggw
+飞卢	fzlu
+七猫	qimk
+橙光	iggd

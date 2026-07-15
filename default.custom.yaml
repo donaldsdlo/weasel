@@ -1,0 +1,51 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sat Jun 20 18:51:55 2026"
+  rime_version: 1.13.1
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Caps_Lock: clear
+    Control_L: noop
+    Control_R: noop
+    Shift_L: commit_code
+    Shift_R: noop
+  key_binder:
+    select_first_character: bracketleft
+    select_last_character: bracketright
+  "key_binder/bindings":
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+  "menu/alternative_select_labels":
+    - "①"
+    - "②"
+    - "③"
+    - "④"
+    - "⑤"
+    - "⑥"
+    - "⑦"
+    - "⑧"
+    - "⑨"
+  "menu/page_size": 6
+  schema_list:
+    - {schema: latex}
+    - {schema: melt_eng}
+    - {schema: rime_ice}
+    - {schema: double_pinyin_flypy}
+    - {schema: double_pinyin_abc}
+    - {schema: double_pinyin_mspy}
+    - {schema: double_pinyin_sogou}
+    - {schema: double_pinyin_ziguang}
+    - {schema: zrm2000}
+    - {schema: wubi86_jidian}
+    - {schema: openfly}
+  "switcher/caption": "「方案选单」"
+  "switcher/fold_options": false
+  "switcher/hotkeys":
+    - "Control+grave"
+  "switcher/save_options":
+    - char_mode
+    - ascii_punct
+    - traditionalize

@@ -1,0 +1,121 @@
+# Rime schema settings
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: zrm2000
+  name: "自然码2000"
+  version: "2009新春版"
+  author:
+    - 发明人: 周志农 先生
+  description: |
+    描　述: 自然码输入系统2000, 2009新春版
+    码　表: 《自然码2009新春版》V7.27
+    网　址: http://www.zrm.com.cn/
+punctuator:
+  import_preset: default
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    # reset: 1
+    states: [ 汉字, 漢字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: emoji
+    states: [ 💀, 😄 ]
+    reset: 1
+engine:
+  processors:
+    - lua_processor@select_character          # 以词定字
+    #- lua_processor@*cloud_pinyin*processor
+    - lua_processor@vim_mode
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+    #- lua_processor@cloud_pinyin_processor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    #- lua_translator@*cloud_pinyin*translator
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    #- lua_translator@cloud_pinyin_translator
+    - table_translator@custom_phrase      # 自定义短语 custom_phrase.txt
+  filters:
+    - simplifier
+    - uniquifier
+    - simplifier@emoji
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " ;'"
+  max_code_length: 20
+
+translator:
+  dictionary: zrm2000.all
+  enable_charset_filter: true
+  enable_encoder: true
+  enable_sentence: true
+  encode_commit_history: true
+  enable_completion: true
+  enable_user_dict: false
+  max_phrase_length: 14
+  # disable_user_dict_for_patterns:
+    # - "^z.*$"
+    # - "^oi.*$"
+
+reverse_lookup:
+  dictionary: zrm2000
+  prefix: "oi"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+simplifier:
+  option_name: simplification
+  opencc_config: s2t.json
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "oi[a-z]*'?$"
+
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
+# 自定义短语
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase  # 需要手动创建 custom_phrase_double.txt 文件
+  db_class: stabledb
+  enable_completion: false # 补全提示
+  enable_sentence: false   # 禁止造句
+  initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
