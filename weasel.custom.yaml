@@ -5,11 +5,11 @@ customization:
   modified_time: "Sun Apr 12 21:27:27 2026"
   rime_version: 1.13.1
 patch:
-  #app_options:
+  app_options:
   #  Listary.exe: {ascii_mode: true}
-  #  # emacs.exe:
-  #  #   ascii_mode:
-  #  #     true
+   emacs.exe:
+     ascii_mode:
+       true
   #  #   vim_mode:
   #  #     true
   #  saplogon.exe:
@@ -26,7 +26,7 @@ patch:
   "style/+":
     color_scheme: catppuccin_frappe
     color_scheme_dark: catppuccin_mocha
-    font_face: "LXGW WenKai Mono GB,文津宋体 第0平面,文津宋体 第2平面,文津宋体 第3平面,Twitter Color Emoji,Segoe UI Emoji"
+    font_face: "仓耳今楷03,LXGW WenKai Mono GB,文津宋体 第0平面,文津宋体 第2平面,文津宋体 第3平面,Twitter Color Emoji,Segoe UI Emoji"
     font_point: 20
     horizontal: false
     inline_preedit: true
