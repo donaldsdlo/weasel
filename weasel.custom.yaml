@@ -24,8 +24,8 @@ patch:
   "preset_color_schemes/+":
     __include: "color_schemes:/color_schemes"
   "style/+":
-    color_scheme: catppuccin_frappe
-    color_scheme_dark: catppuccin_mocha
+    color_scheme: zrm_classic
+    color_scheme_dark: zrm_classic_dark
     font_face: "仓耳今楷03,LXGW WenKai Mono GB,文津宋体 第0平面,文津宋体 第2平面,文津宋体 第3平面,Twitter Color Emoji,Segoe UI Emoji"
     font_point: 20
     horizontal: false

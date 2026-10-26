@@ -1,12 +1,22 @@
-#patch:
-#  grammar:
-#    language: wanxiang-lts-zh-hans
-#    collocation_max_length: 5
-#    collocation_min_length: 2
-#    collocation_penalty: -16
-#    non_collocation_penalty: -8
-#    weak_collocation_penalty: -100
-#    rear_penalty: -20
-#  translator/contextual_suggestions: true
-#  translator/max_homophones: 7
-#  translator/max_homographs: 7
+patch:
+  # 1) 开启运行时用户词典：让个人词组与提交历史参与语句联想/调频
+  #    （原 schema 中 enable_user_dict: false 与 enable_sentence/encode_commit_history 矛盾）
+  translator/enable_user_dict: true
+
+  # 2) 万星语法模型（需脚本翻译器 script_translator，已在 schema engine 中启用）
+  #    注意：依赖共享数据目录下的 wanxiang-lts-zh-hans 模型文件；
+  #          若未部署，Rime 仅告警、不影响输入，可注释本段回退。
+  translator/grammar/language: wanxiang-lts-zh-hans
+  translator/grammar/collocation_max_length: 5
+  translator/grammar/collocation_min_length: 2
+  translator/grammar/collocation_penalty: -16
+  translator/grammar/non_collocation_penalty: -8
+  translator/grammar/weak_collocation_penalty: -100
+  translator/grammar/rear_penalty: -20
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+
+  # 3) 英文混输过滤：en_spacer/cn_en_spacer 已在 engine 挂载并自动加空格；
+  #    reduce_english_filter 默认 none（对形码无意义，不降级英文），如需可改 all。
+  reduce_english_filter/mode: none

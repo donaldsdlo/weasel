@@ -1702,4 +1702,38 @@ color_schemes:
     comment_text_color: 0xefefef
     hilited_comment_text_color: 0xffffff
     text_color: 0x6495ed
+
+  zrm_classic:
+    name: "自然码／经典"
+    author: "recreated for Rime by donal"
+    back_color: 0xF6F6F2                         # 候选窗背景（米白纸感）
+    border_color: 0xDADAD2                       # 边框
+    text_color: 0x2F6FB0                         # 拼音/编码串（经典蓝）
+    label_color: 0x9A9A92                         # 序号 ①②③
+    candidate_text_color: 0x202020               # 候选汉字
+    comment_text_color: 0x9A9A92                 # 辅码/拼音注释
+    hilited_candidate_back_color: 0x2F6FB0       # 高亮候选背景（蓝）
+    hilited_candidate_text_color: 0xFFFFFF       # 高亮候选文字（白）
+    hilited_candidate_label_color: 0xFFFFFF      # 高亮序号
+    hilited_comment_text_color: 0xE6EFF8         # 高亮注释
+    hilited_text_color: 0x2F6FB0                 # 高亮拼音
+    hilited_label_color: 0x2F6FB0
+    hilited_mark_color: 0x2F6FB0
+
+  zrm_classic_dark:
+    name: "自然码／经典深色"
+    author: "recreated for Rime by donal"
+    back_color: 0x1F1F22                         # 候选窗背景（深灰）
+    border_color: 0x333338                       # 边框
+    text_color: 0x5BA3E8                         # 拼音/编码串（浅蓝）
+    label_color: 0x6E6E74                         # 序号 ①②③
+    candidate_text_color: 0xDCDCDC               # 候选汉字
+    comment_text_color: 0x7A7A80                 # 辅码/拼音注释
+    hilited_candidate_back_color: 0x2F6FB0       # 高亮候选背景（蓝）
+    hilited_candidate_text_color: 0xFFFFFF       # 高亮候选文字（白）
+    hilited_candidate_label_color: 0xFFFFFF      # 高亮序号
+    hilited_comment_text_color: 0xC9E2F6         # 高亮注释
+    hilited_text_color: 0x5BA3E8                 # 高亮拼音
+    hilited_label_color: 0x5BA3E8
+    hilited_mark_color: 0x5BA3E8
     hilited_text_color: 0xc6c01a    

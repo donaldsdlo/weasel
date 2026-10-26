@@ -7,11 +7,8 @@ name: zrm2000.computer
 version: "2024-07-19"
 sort: by_weight
 ...
-入参	rucj
-出参	iucj
 强依赖	qdyill
 弱依赖	royill
-发版	fabj
 竞业	jyye
 父级目录	fujimulu
 会邀	hvyk

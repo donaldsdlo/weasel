@@ -10,7 +10,6 @@ sort: by_weight
 #象棋
 王天一	whtmyi
 捉双	voud
-大子	dazi
 出动大子	iudsdazi
 子力	zili
 棋理	qili
@@ -18,7 +17,6 @@ sort: by_weight
 炮碾丹砂	pknmdjua
 兑车	dvie
 抽将	ibjd
-抽车	ibie
 抽马	ibma
 抽炮	ibpk
 将军抽车	jdjpibie
@@ -37,7 +35,6 @@ sort: by_weight
 铁门栓	txmfur
 天地炮	tmdipk
 空头炮	kstbpk
-挂角	gwjc
 八角马	bajcma
 侧面虎	cemmhu
 拔簧马	bahdma
@@ -92,7 +89,6 @@ sort: by_weight
 巡河线	xphexm
 巡河车	xpheie
 飞象	fzxd
-飞相	fzxd
 敢死车	gjsiie
 敢死炮	gjsipk
 瞎眼狗	xwyjgb
@@ -108,7 +104,6 @@ sort: by_weight
 弃车保帅	qiiebkuy
 弃帅保车	qiuybkie
 直车对横车	viiedvhgie
-窝心炮	woxnpk
 铁滑车	txhwie
 五六炮	wulqpk
 五七炮	wuqipk
@@ -118,7 +113,6 @@ sort: by_weight
 别马腿	bxmatv
 无理手	wuliub
 古棋谱	guqipu
-古谱	gupu
 #国际象棋
 王车易位	whieyiwz
 无子可动	wuzikeds
@@ -127,7 +121,6 @@ sort: by_weight
 升变	ugbm
 白先黑后	blxmhzhb
 摸子走子	mozizbzi
-行棋	xyqi
 #五子棋
 做棋	zoqi
 连冲四	lmissi
@@ -150,9 +143,7 @@ sort: by_weight
 长星	vhxy
 峡月	xwyt
 云月	ypyt
-浦月	puyt
 岚月	ljyt
-斜月	xxyt
 名月	myyt
 冲四	issi
 活三	hosj

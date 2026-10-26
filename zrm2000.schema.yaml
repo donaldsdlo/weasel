@@ -12,9 +12,6 @@ schema:
     描　述: 自然码输入系统2000, 2009新春版
     码　表: 《自然码2009新春版》V7.27
     网　址: http://www.zrm.com.cn/
-punctuator:
-  import_preset: default
-
 switches:
   - name: ascii_mode
     reset: 0
@@ -53,13 +50,16 @@ engine:
     #- lua_translator@*cloud_pinyin*translator
     - punct_translator
     - reverse_lookup_translator
-    - table_translator
+    - script_translator
     #- lua_translator@cloud_pinyin_translator
     - table_translator@custom_phrase      # 自定义短语 custom_phrase.txt
   filters:
     - simplifier
     - uniquifier
     - simplifier@emoji
+    - lua_filter@en_spacer
+    - lua_filter@cn_en_spacer
+    - lua_filter@reduce_english_filter
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba

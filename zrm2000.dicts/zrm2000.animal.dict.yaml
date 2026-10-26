@@ -57,7 +57,6 @@ use_preset_vocabulary: true
 查理士王猎犬	ialiuiwhlxqr
 查理士王犬	ialiuiwhqr
 查理士王小猎犬	ialiuiwhxclxqr
-柴犬	ilqr
 长毛猎犬	ihmklxqr
 长毛牧羊犬	ihmkmuyhqr
 长须牧羊犬	ihxumuyhqr
@@ -132,15 +131,12 @@ use_preset_vocabulary: true
 拉萨狗	lasagb
 拉萨犬	lasaqr
 莱卡	llka
-狼犬	lhqr
 老式英国牧羊犬	lkuiyygomuyhqr
 猎狐犬	lxhuqr
 猎麋	lxmi
 猎枪犬	lxqdqr
-猎犬	lxqr
 猎雉犬	lxviqr
 灵缇	lyti
-路路	lulu
 洛德瓦拉笃宾犬	lodewaladubnqr
 罗得西亚背脊犬	lodexiyabzjiqr
 罗红犬	lohsqr
@@ -202,7 +198,6 @@ use_preset_vocabulary: true
 塞蒙地犬	slmgdiqr
 三斑犬	sjbjqr
 沙克犬	uakeqr
-沙皮	uapi
 沙皮狗	uapigb
 沙皮犬	uapiqr
 圣伯纳	ugbona
@@ -216,7 +211,6 @@ use_preset_vocabulary: true
 四国犬	sigoqr
 斯开岛㹴	sikldkgg
 丝毛㹴	simkgg
-松狮	ssui
 松狮犬	ssuiqr
 松鼠犬	ssuuqr
 苏俄牧羊犬	sueemuyhqr
@@ -245,7 +239,6 @@ use_preset_vocabulary: true
 西里汉㹴	xilihjgg
 西摩犬	ximoqr
 西帕凯犬	xipaklqr
-西施	xiui
 西施犬	xiuiqr
 西藏㹴	xizhgg
 小丹犬	xcdjqr
@@ -280,15 +273,10 @@ use_preset_vocabulary: true
 中国狮子犬	vsgouiziqr
 中国无毛犬	vsgowumkqr
 无毛犬	wumkqr
-仓鼠	chuu
 鹿鹿	lulu
-猛虎	mghu
 狮狮	uiui
-兔兔	tutu
 白红眼	blhsyj
-白化	blhw
 白化蛋白石基因	blhwdjbluijiyn
-彩虹	clhs
 彩狸	clli
 蛋白石	djblui
 蛋白石基因	djbluijiyn
@@ -305,17 +293,14 @@ use_preset_vocabulary: true
 灰翅蛋白石基因	hviidjbluijiyn
 灰翅基因	hviijiyn
 灰翅肉桂基因	hviirbgvjiyn
-肉桂	rbgv
 肉桂蛋白石基因	rbgvdjbluijiyn
 肉桂隐派基因	rbgvynpljiyn
 天空蓝灰翅	tmksljhvii
 显派	xmpl
 隐派	ynpl
 隐派基因	ynpljiyn
-鱼鳞	yuln
 原始蓝	yruilj
 原始绿	yruilv
-珍珠	vfvu
 边境牧羊犬	bmjymuyhqr
 凯利蓝梗	klliljgg
 可蒙犬	kemgqr
@@ -326,7 +311,6 @@ use_preset_vocabulary: true
 西伯利亚哈士奇	xiboliyahauiqi
 雪纳瑞	xtnarv
 英国古代牧羊犬	yygogudlmuyhqr
-藏獒	zhao
 暗脉菜粉蝶	anmlclffdx
 巴黎翠凤蝶	balicvfgdx
 白带凤蝶	bldlfgdx
@@ -368,7 +352,6 @@ use_preset_vocabulary: true
 峨眉大弄蝶	eemzdansdx
 二尾蛱蝶	erwzjwdx
 飞龙粉蝶	fzlsffdx
-凤蝶	fgdx
 凤尾青凤蝶	fgwzqyfgdx
 凤眼方环蝶	fgyjfhhrdx
 柑橘凤蝶	gjjufgdx
@@ -525,7 +508,6 @@ use_preset_vocabulary: true
 菜粉蝶	clffdx
 单环蛱蝶	djhrjwdx
 黑弄蝶	hznsdx
-蛱蝶	jwdx
 双环蛱蝶	udhrjwdx
 眼碟	yjdx
 阿比西尼亚猫	aabixiniyamk
@@ -533,7 +515,6 @@ use_preset_vocabulary: true
 奥西猫	aoximk
 巴厘猫	balimk
 伯曼猫	bomjmk
-波斯猫	bosimk
 布偶猫	buoumk
 田园猫	tmyrmk
 德文卷毛猫	dewfjrmkmk
@@ -548,7 +529,6 @@ use_preset_vocabulary: true
 科拉特猫	kelatemk
 柯尼斯卷毛猫	kenisijrmkmk
 褴褛猫	ljlvmk
-狸猫	limk
 狸花猫	lihwmk
 曼岛无尾猫	mjdkwuwzmk
 美国短毛猫	mzgodrmkmk
